@@ -5,6 +5,7 @@ terraform {
       version = "~> 3.0"
     }
   }
+}
 
 module "module" {
   source  = "app.terraform.io/Client-issues-yashi/module/random"
