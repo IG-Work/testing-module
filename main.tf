@@ -7,13 +7,18 @@ terraform {
   }
 }
 
-module "module" {
+/*module "module" {
   source  = "app.terraform.io/Client-issues-yashi/module/random"
   version = "1.0.3"
 
   # Add any required variables below, for example:
   # length = 16
   # special = true
+}*/
+
+module "module" {
+  source  = "app.terraform.io/test-yashi/module/random"
+  version = "1.0.3"
 }
 
 output "module_output" {
