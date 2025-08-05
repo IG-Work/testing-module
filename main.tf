@@ -18,7 +18,7 @@ terraform {
 
 module "module" {
   source  = "app.terraform.io/test-yashi/module/random"
-  version = "1.0.3"
+  version = "1.0.0"
 }
 
 output "module_output" {
